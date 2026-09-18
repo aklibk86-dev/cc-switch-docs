@@ -1,0 +1,14 @@
+{
+  "name": "cc-switch-docs",
+  "version": "1.0.0",
+  "description": "CC Switch 使用指南：小白友好的接入教程与官方手册",
+  "type": "module",
+  "scripts": {
+    "dev": "vitepress dev docs",
+    "build": "vitepress build docs",
+    "preview": "vitepress preview docs"
+  },
+  "devDependencies": {
+    "vitepress": "^1.6.4"
+  }
+}
