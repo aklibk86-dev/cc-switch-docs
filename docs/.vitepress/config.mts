@@ -2,8 +2,8 @@ import { defineConfig } from 'vitepress'
 
 export default defineConfig({
   lang: 'zh-CN',
-  title: 'CC Switch 使用指南',
-  description: 'CC Switch 使用文档：一键切换 Claude Code / Codex / Gemini 等 AI 工具配置，小白友好接入中转站。',
+  title: 'Aklibk 文档中心',
+  description: 'Aklibk API 中转站文档中心：CC Switch 使用教程与完整手册。',
   base: '/',
   ignoreDeadLinks: true,
   head: [
@@ -11,7 +11,7 @@ export default defineConfig({
   ],
   themeConfig: {
     logo: '/logo.png',
-    siteTitle: 'Aklibk 中转站 · CC Switch 使用指南',
+    siteTitle: 'Aklibk 文档中心',
     search: { provider: 'local' },
     nav: [
       { text: '首页', link: '/' },
@@ -40,8 +40,8 @@ export default defineConfig({
       }
     ],
     footer: {
-      message: 'Aklibk API 中转站 · CC Switch 使用指南',
-      copyright: '官网 https://ai.aklibk.com · CC Switch 请认准 ccswitch.io 官方渠道'
+      message: 'Aklibk 文档中心',
+      copyright: '© Aklibk · ai.aklibk.com'
     }
   }
 })
