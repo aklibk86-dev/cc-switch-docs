@@ -15,7 +15,7 @@ export default defineConfig({
     search: { provider: 'local' },
     nav: [
       { text: '首页', link: '/' },
-      { text: '使用手册', link: '/guide/00-使用手册' },
+      { text: '使用手册', link: '/manual/01-入门指南' },
       { text: '接入教程', link: '/guide/01-小白教程' },
       { text: '中转站', link: 'https://ai.aklibk.com' }
     ],
@@ -35,7 +35,11 @@ export default defineConfig({
       {
         text: '官方中文手册',
         items: [
-          { text: '完整使用手册', link: '/guide/00-使用手册' }
+          { text: '入门指南', link: '/manual/01-入门指南' },
+          { text: '供应商管理', link: '/manual/02-供应商管理' },
+          { text: '扩展功能', link: '/manual/03-扩展功能' },
+          { text: '代理与路由', link: '/manual/04-代理与路由' },
+          { text: '常见问题', link: '/manual/05-常见问题' }
         ]
       }
     ],

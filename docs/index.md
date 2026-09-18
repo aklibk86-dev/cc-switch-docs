@@ -14,7 +14,7 @@ hero:
       link: /guide/01-小白教程
     - theme: alt
       text: 使用手册
-      link: /guide/00-使用手册
+      link: /manual/01-入门指南
 
 features:
   - icon: 🚀
