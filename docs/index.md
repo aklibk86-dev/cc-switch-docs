@@ -4,7 +4,10 @@ layout: home
 hero:
   name: CC Switch 使用指南
   text: 一键切换 AI 工具配置
-  tagline: 小白也能看懂的 CC Switch 文档站 —— 接入 Claude Code、Codex、Gemini 等工具，一个 Key 通吃全家桶。
+  tagline: Aklibk API 中转站文档 —— 小白也能看懂的 CC Switch 接入教程，一个 Key 通吃全家桶。
+  image:
+    src: /logo.png
+    alt: Aklibk
   actions:
     - theme: brand
       text: 🚀 小白快速上手

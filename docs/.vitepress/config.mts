@@ -7,16 +7,17 @@ export default defineConfig({
   base: '/',
   ignoreDeadLinks: true,
   head: [
-    ['link', { rel: 'icon', href: '/favicon.ico' }]
+    ['link', { rel: 'icon', href: '/logo.png' }]
   ],
   themeConfig: {
-    siteTitle: 'CC Switch 使用指南',
+    logo: '/logo.png',
+    siteTitle: 'Aklibk 中转站 · CC Switch 使用指南',
     search: { provider: 'local' },
     nav: [
       { text: '首页', link: '/' },
       { text: '使用手册', link: '/guide/00-使用手册' },
       { text: '接入教程', link: '/guide/01-小白教程' },
-      { text: '官方资源', link: 'https://ccswitch.io' }
+      { text: '中转站', link: 'https://ai.aklibk.com' }
     ],
     sidebar: [
       {
@@ -39,8 +40,8 @@ export default defineConfig({
       }
     ],
     footer: {
-      message: 'CC Switch 使用指南 · 基于官方 farion1231/cc-switch 文档整理',
-      copyright: '仅供学习参考，请认准官网 ccswitch.io'
+      message: 'Aklibk API 中转站 · CC Switch 使用指南',
+      copyright: '官网 https://ai.aklibk.com · CC Switch 请认准 ccswitch.io 官方渠道'
     }
   }
 })
